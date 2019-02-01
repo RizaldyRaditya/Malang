@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+[class*="col-"] { float: left; padding: 15px; }
+[class*="col-"] { width: 100%; }
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%  ;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+div.navbar{
+    width : 100%;
+    background: linear-gradient(to top, #000000 0, #2d2d2d 130%);
+    font-family: sans-serif;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 10px;
+}
+div.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0; 
+}
+div.navbar li{
+    float: right;
+}
+div.navbar li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 13px 15px;
+    font-size: 16px;
+    display: block;
+}
+div.navbar li a:hover{ 
+    color : gold;
+   border: 2px solid silver;
+}
+div.header{
+    width: 100%;
+    height: auto;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    float: left;
+}
+div.shadow{
+    width: 100%;
+    height: 700px;
+    background:linear-gradient(rgb(0, 0, 0), rgba(32, 31, 31, 0.76));
+    opacity: 2;
+    float: left;
+}
+div.header h1{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 160px;
+    left: 600px;
+    font-weight: bolder;
+    font-family: "Times New Roman";
+    font-size: 50px;
+    height: auto;
+}
+div.header h1 img{
+    width: 200px;
+    height: auto;
+}
+div.malang{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    float: left;
+    margin-top: 0px;
+    color: white;
+    background: linear-gradient(rgb(0, 0, 0), rgba(32, 31, 31, 0.76)); 
+}
+div.malang .penjelasan{
+    /* width: 100%; */
+    /* height: 150px; */
+    float: left;
+}
+div.malang .penjelasan h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'sans-serif';
+    font-weight: 15;
+    height: auto;
+}
+div.malang .penjelasan p{
+    text-align: justify;
+    font-size: 20px;
+    height: auto;
+}
+div.malang .gambar{
+    width: 100%;
+    height: 245px;
+    text-align: center;
+}
+div.malang .gambar img{
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid white;
+}
+div.budaya{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    float: left;
+    color: white;
+    background:linear-gradient(rgba(32, 31, 31, 0.76), rgba(73, 71, 71, 0.76));
+    margin-top: 0;
+}
+div.budaya h1{
+    text-align: center;
+}
+div.budaya .lampion{
+    float: left;
+}
+div.budaya .lampion img{
+    width: 300px;
+    border: 4px solid white;
+}
+div.budaya .candi{
+    float: right;
+}
+div.budaya .candi img{
+    width: 300px;
+    border: 4px solid white;
+}
+div.budaya .candi2{
+    float: left;
+}
+div.budaya .candi2 img{
+    width: 300px;
+    border: 4px solid white;
+}
+div.wisata{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    float: left;
+    color:  white;
+    background:linear-gradient(rgba(73, 71, 71, 0.76),rgba(105, 100, 100, 0.76));
+}
+div.wisata h1{
+    text-align: center;
+    text-decoration: none;
+}
+
+div.wisata .coban{
+    float: right;
+}
+div.wisata .coban img{
+    width: 300px;
+    height: 250px;
+    border: 4px solid white;    
+}
+div.wisata .kampung{
+    float: left;
+}
+div.wisata .kampung img{
+    width: 250px;
+    border: 4px solid white;
+}
+div.wisata .hawai{
+    float: right;
+}
+div.wisata .waterpark h2 a{
+    text-decoration: none;
+    color: white;
+}
+div.hawai .hawai img{
+    width: 300px;
+    border: 4px solid white;
+}
+div.makanan{
+    height: auto;
+    padding: 0;
+    float: left;
+    color:  white;
+    background:linear-gradient(rgba(105, 100, 100, 0.76), rgba(155, 150, 150, 0.76));
+}
+div.makanan h1{
+    text-align: center;
+}
+div.makanan .bakso{
+    float: right;
+}
+div.makanan .bakso img{ 
+    width: 300px;
+    margin-top: 35px;
+}
+div.makanan .bakar p{
+    font-size: 20px;
+}
+div.makanan .kuah{
+    float: left;
+}
+div.makanan .kuah img{
+    width: 300px;
+    margin-top: 35px;
+}
+div.makanan .ntap p{
+    font-size: 20px;
+}
+div.makanan .cwie{
+    float: right;
+}
+div.makanan .cwie img{
+    width: 250px;
+}
+div.makanan .Strudel{
+    float: left;
+    margin-top: 30px;
+}
+div.makanan .Strudel img{
+    width: 300px;
+}
+div.makanan .footer{
+    background: black;
+    color: white;
+}
